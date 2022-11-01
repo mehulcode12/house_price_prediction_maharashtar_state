@@ -1,0 +1,6 @@
+numpy<1.23.0
+streamlit<1.14.0
+streamlit_lottie<0.0.3
+pandas<1.2.3
+scikit_learn<0.24.1
+matplotlib<1.16.0

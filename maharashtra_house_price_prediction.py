@@ -97,7 +97,7 @@ html = """
     <h1 style="color:white;text-align:center;"> Maharashtra's House Price Prediction</h1>
     </div>
     """
-st.markdown('https://in.linkedin.com/in/mehul-ligade-a04332240')
+#st.markdown('https://in.linkedin.com/in/mehul-ligade-a04332240')
 st.markdown(html, unsafe_allow_html = True )
 
 
@@ -115,7 +115,7 @@ if st.button("Predict House Price"):
 
 html_temp = """
     <div style="background:#025246 ;padding:2px">
-    <h4 style="color:white;text-align:center;"> Created by Mehul on 31 Oct 2022 </h4>
+    <h4 style="color:white;text-align:center;"> Created by Mayur, Ishant, Sahil on 16 May 2023 </h4>
     </div>
     """
 st.markdown(html_temp, unsafe_allow_html = True)

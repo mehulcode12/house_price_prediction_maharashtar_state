@@ -115,7 +115,7 @@ if st.button("Predict House Price"):
 
 html_temp = """
     <div style="background:#025246 ;padding:2px">
-    <h4 style="color:white;text-align:center;"> Created by Mayur, Ishant, Sahil on 16 May 2023 </h4>
+    <h4 style="color:white;text-align:center;"> Created by Mayur, Ishant, Pranav on 16 May 2023 </h4>
     </div>
     """
 st.markdown(html_temp, unsafe_allow_html = True)

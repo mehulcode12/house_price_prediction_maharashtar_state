@@ -96,7 +96,20 @@ hide_st_style= """
 footer {visibility: hidden;}
 </style>"""
 
-#
+#chaninging background 
+pg_bg= """
+<style>
+[data-testid="stAppViewContainer"]{
+background-color: #444cf755;
+opacity: 0.8;
+background-image: repeating-radial-gradient( circle at 0 0, transparent 0, #000000 10px ), repeating-linear-gradient( #00000055, #000000 );
+
+ 
+
+}
+
+</style>"""
+st.markdown(pg_bg,unsafe_allow_html=True)
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 

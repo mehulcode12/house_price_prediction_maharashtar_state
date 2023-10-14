@@ -89,6 +89,15 @@ animation = load_lottiefiles("animation.json")
 st_lottie(animation, key="anim", quality="low", loop=True, height=200)
 
 ############
+#hides the "made with streamlitt footer"
+hide_st_style= """
+<style>
+#MainMenu {visiblity: hidden;}
+footer {visibility: hidden;}
+</style>"""
+
+
+st.markdown(hide_st_style, unsafe_allow_html=True)
 
 
 
